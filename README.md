@@ -1,1 +1,2 @@
-# trainer_partial__ideas
+# personalTrainer
+early build for personal trainer portfolio site

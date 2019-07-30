@@ -1,0 +1,20 @@
+:root {
+   --fullGrid: 1 / 1 / -1 / -1;
+}
+
+/* Head Banner */
+
+.video-header {
+  z-index: 0;
+  /* Create grid spanning viewport width & height */
+  display: grid;
+  grid-area: var(--fullGrid);
+  grid-template-rows: 100vh;
+}
+
+.video-header video {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
